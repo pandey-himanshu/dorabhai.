@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav,
+.div-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 1px #a1a1a1;
+    padding: 10px 20px;
+}
+
+.div-1 {
+    box-shadow: none;
+}
+
+.btn {
+    background-color: #e91c1c;
+    padding: 5px 20px;
+    border: 1px solid #e91c1c;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 1px 2px 1px #a1a1a1;
+}
+
+.btn-1 {
+    background-color: #e91c1c;
+    padding: 5px 20px;
+    border: 1px solid #e91c1c;
+    color: #fff;
+    box-shadow: 1px 2px 1px #a1a1a1;
+    margin-left: 10px;
+}
+
+.div-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.div-2-1 {
+    width: 35%;
+    position: relative;
+    margin-left: 100px;
+}
+
+.div-2-1 h1 {
+    font-size: 36px;
+}
+
+.div-2-1 div {
+    display: inline-block;
+    color: white;
+    background-color: #09c07f;
+    font-weight: normal;
+    font-size: 10px;
+    position: absolute;
+}
+
+.div-2-2 {
+    width: 40%;
+}
+
+.div-3 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.div-3 span {
+    color: #e91c1c;
+    font-weight: bold;
+}
+
+.heading {
+    color: #e91c1c;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p {
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6 {
+    border: 1px solid #333;
+    width: 40%;
+    padding: 20px;
+    margin: 5px 10px;
+    text-align: center;
+    border: 1px solid #a1a1a1;
+    box-shadow: 1px 2px 1px #a1a1a1;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.box-1 {
+    background-color: #f95151;
+}
+
+.box-2 {
+    background-color: #7f64ef;
+}
+
+.box-3 {
+    background-color: #4bb967;
+}
+
+.box-4 {
+    background-color: #1f78e9;
+}
+
+.box-5 {
+    background-color: #ecaa05;
+}
+
+.box-6 {
+    background-color: #1c4980;
+}
+
+#option{
+    text-align: center;
+    flex-direction: column;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+figure{
+display: inline-block;
+margin: 80px;
+}
+.hello{
+    position: fixed;
+    height: 10px;
+    width: 10px;
+}
